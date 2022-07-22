@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.text {
+    text-align: center;
+    padding: 0 50px;
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+    padding: 20px 0;
+    font-weight: 900;
+}
+
+.subtitle {
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+}
+
+.plan {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.plan-left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.plan-left div {
+    margin-left: 20px;
+}
+
+.plan-left div h2 {
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(223, 47%, 23%);
+    padding-bottom: 5px;
+}
+
+.plan-left div p {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.plan a:hover {
+    color: hsl(224, 23%, 55%);
+}
+
+.button a {
+    text-decoration: none;
+    display: block;
+}
+
+.proceed {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 9px;
+    font-weight: 700;
+}
+
+.proceed:hover {
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel {
+    padding: 10px 30px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    margin: 20px 0;
+}
+
+.cancel:hover {
+    color: #000;
+}
